@@ -22,5 +22,5 @@ messaging.requestPermission()
 })
 
 messaging.onMessage(function(msg){
-    console.log("Received: " + msg)
+    console.dir(msg)
 })
